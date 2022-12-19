@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turkmen-English</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="lessons/lessons/alphabet.html">Alphabet</a>
+      <a href="lessons/lesson1.html">lessons/lesson 1</a>
+      <a href="lessons/lesson2.html">lessons/lesson 2</a>
+      <a href="lessons/lesson3.html">lessons/lesson 3</a>
+      <a href="lessons/lesson4.html">lessons/lesson 4</a>
+      <a href="lessons/lesson5.html">lessons/lesson 5</a>
+      <a href="lessons/lesson6.html">lessons/lesson 6</a>
+      <a href="lessons/lesson7.html">lessons/lesson 7</a>
+      <a href="lessons/lesson8.html">lessons/lesson 8</a>
+      <a href="lessons/lesson9.html">lessons/lesson 9</a>
+      <a href="lessons/lesson10.html">lessons/lesson 10</a>
+    </div>
+    <div id="main">
+      <div class="menu">
+        <span
+          style="
+            font-size: 25px;
+            padding: 5px 10px;
+            color: tomato;
+            cursor: pointer;
+          "
+          onclick="openNav()"
+          >☰ </span
+        ><span
+          style="font-size: 20px; font-family: Arial, Helvetica, sans-serif"
+          >Türkmen-English</span
+        >
+      </div>
+      <div class="content">
+        <div class="info">
+          <p>
+            Bu web-programmada, iňlis dili gramatika düzgünleri görkezlen
+            däldir. Bu web-programma, iňlis dili gramatika düzgünlerini bilip,
+            öz iňlisçe gepleşik derejesini kämileşdirmek isleýänler üçin
+            düzülendir. Söz baýlygny köpeltmek üçin her sapakda täze sözler, we
+            söhbetdeşlikde köp ulanylýan sözlemli dialoglar görkezlen.
+          </p>
+        </div>
+        <div class="conversation">
+          <h3 class="cname">Söhbetdişlikde köp ulanylýan sözlemler</h3>
+          <h4 id="aname">Audiony açyň we dialogy yzarlaň.</h4>
+          <audio style="width: 350px" controls="controls" preload="auto">
+            <source src="audio/lessons/lesson1.wav" />
+            Siziň browseriňiz bu audiony okap bilmesýär &lt;audio&gt;.
+          </audio>
+          <button
+            class="gradient-border"
+            id="btnTranslate"
+            onclick="terjimesi()"
+          >
+            Terjimesini görkez
+          </button>
+          <p>
+            <ins><strong>First lessons/lesson:</strong></ins>
+          </p>
+          <p class="tm"><ins>Birinji sapak:</ins></p>
+          <p>You're an excellent doctor.</p>
+          <p class="tm">Siz orän gowy doktor.</p>
+          <p>Thank you, you’re very polite.</p>
+          <p class="tm">Sag boluň, siz orän sypaýçylykly.</p>
+          <p>This is my brother John.</p>
+          <p class="tm">Bu meniň doganym Jon.</p>
+          <p>Hello, I’m David</p>
+          <p class="tm">Salam,meniň adym Dewid.</p>
+          <p>oh dear, we’re late again.</p>
+          <p class="tm">Wah mähribanym, biz ýenede gijä galýarys.</p>
+          <p>It isn’t my fault.</p>
+          <p class="tm">Bu meniň günäm däl.</p>
+          <p>There isn’t a clock in my house.</p>
+          <p class="tm">Meniň oýümde sagat ýok.</p>
+          <p>This isn’t very difficult.</p>
+          <p class="tm">Bu gaty bir kyn däl.</p>
+          <p>Not at all.It’s easy.</p>
+          <p class="tm">Asla kyn däl. Bu örän aňsat.</p>
+          <p>She isn’t very pretty.</p>
+          <p class="tm">Ol gyz gaty bir owadan däl.</p>
+          <p>No, but she’s kind.</p>
+          <p class="tm">Ýok,ýone o gyz orän hoşamaý.</p>
+          <p>I’m sure this is our house.</p>
+          <p class="tm">Bu biziň oýümizdigine,men ynamly.</p>
+          <p>No it isn’t!</p>
+          <p class="tm">Ýok bu biziň oýümiz däl.</p>
+          <p>(I am, I’m) –( You are; you’re).</p>
+          <p class="tm">(Men bar);-(Sen'Siz' bar).</p>
+          <p>(it is, it’s); (he is, he’s); (we are, we’re).</p>
+          <p class="tm">(Bu bar);(Ol bar);(Biz bar).</p>
+          <p>isn’t; he isn’t late.</p>
+          <p class="tm">Ol(bu) yok; Ol gijä galanok.</p>
+          <p>aren’t; we aren’t polite.</p>
+          <p class="tm">Biz(Siz,Olar) yok; Biz sypaýy däl.</p>
+        </div>
+        <div class="words">
+          <h3 class="cname">New words-Täze sözler</h3>
+          <table id="tazesozler">
+            <tbody>
+              <tr>
+                <th>Söz</th>
+                <th>Terjime</th>
+                <th>Okalyşy</th>
+                <th>Surat</th>
+                <th>Aýdylşy(audio)</th>
+              </tr>
+              <tr>
+                <td>birkemsiz</td>
+                <td>excellent</td>
+                <td>[ˈeksələnt]</td>
+                <td><img class="tbimg" src="images/excellent.jpg" /></td>
+                <td>
+                  <audio
+                    style="width: 100px"
+                    controls="controls"
+                    preload="auto"
+                  >
+                    <source src="audio/excellent.wav" />
+                    Siziň browseriňiz bu audiony okap bilmesýär &lt;audio&gt;.
+                  </audio>
+                </td>
+              </tr>
+              <tr>
+                <td>edepli</td>
+                <td>polite</td>
+                <td>[pəˈlaɪt]</td>
+                <td><img class="tbimg" src="images/polite.jpg" /></td>
+                <td>
+                  <audio
+                    style="width: 100px"
+                    controls="controls"
+                    preload="auto"
+                  >
+                    <source src="audio/polite.wav" />
+                    Siziň browseriňiz bu audiony okap bilmesýär &lt;audio&gt;.
+                  </audio>
+                </td>
+              </tr>
+              <tr>
+                <td>aga(dogan)</td>
+                <td>brother</td>
+                <td>[ˈbrʌðə(r)]</td>
+                <td><img class="tbimg" src="images/brother.jpg" /></td>
+                <td>
+                  <audio
+                    style="width: 100px"
+                    controls="controls"
+                    preload="auto"
+                  >
+                    <source src="audio/brother.wav" />
+                    Siziň browseriňiz bu audiony okap bilmesýär &lt;audio&gt;.
+                  </audio>
+                </td>
+              </tr>
+              <tr>
+                <td>mähriban(gadyrly)</td>
+                <td>dear</td>
+                <td>[dɪə(r)]</td>
+                <td><img class="tbimg" src="images/dear.jpg" /></td>
+                <td>
+                  <audio
+                    style="width: 100px"
+                    controls="controls"
+                    preload="auto"
+                  >
+                    <source src="audio/dear.wav" />
+                    Siziň browseriňiz bu audiony okap bilmesýär &lt;audio&gt;.
+                  </audio>
+                </td>
+              </tr>
+              <tr>
+                <td>sagat</td>
+                <td>clock</td>
+                <td>[klɒk]</td>
+                <td><img class="tbimg" src="images/clock.jpg" /></td>
+                <td>
+                  <audio
+                    style="width: 100px"
+                    controls="controls"
+                    preload="auto"
+                  >
+                    <source src="audio/clock.wav" />
+                    Siziň browseriňiz bu audiony okap bilmesýär &lt;audio&gt;.
+                  </audio>
+                </td>
+              </tr>
+              <tr>
+                <td>jaý</td>
+                <td>house</td>
+                <td>[haʊs]</td>
+                <td><img class="tbimg" src="images/house.jpg" /></td>
+                <td>
+                  <audio
+                    style="width: 100px"
+                    controls="controls"
+                    preload="auto"
+                  >
+                    <source src="audio/house.wav" />
+                    Siziň browseriňiz bu audiony okap bilmesýär &lt;audio&gt;.
+                  </audio>
+                </td>
+              </tr>
+              <tr>
+                <td>kyn</td>
+                <td>difficult</td>
+                <td>[ˈdɪfɪkəlt]</td>
+                <td><img class="tbimg" src="images/difficult.jpg" /></td>
+                <td>
+                  <audio
+                    style="width: 100px"
+                    controls="controls"
+                    preload="auto"
+                  >
+                    <source src="audio/difficult.wav" />
+                    Siziň browseriňiz bu audiony okap bilmesýär &lt;audio&gt;.
+                  </audio>
+                </td>
+              </tr>
+              <tr>
+                <td>eýjejik</td>
+                <td>pretty</td>
+                <td>[ˈprɪti]</td>
+                <td><img class="tbimg" src="images/pretty.jpg" /></td>
+                <td>
+                  <audio
+                    style="width: 100px"
+                    controls="controls"
+                    preload="auto"
+                  >
+                    <source src="audio/pretty.wav" />
+                    Siziň browseriňiz bu audiony okap bilmesýär &lt;audio&gt;.
+                  </audio>
+                </td>
+              </tr>
+              <tr>
+                <td>hoşamay</td>
+                <td>kind</td>
+                <td>[kaɪnd]</td>
+                <td><img class="tbimg" src="images/kind.jpg" /></td>
+                <td>
+                  <audio
+                    style="width: 100px"
+                    controls="controls"
+                    preload="auto"
+                  >
+                    <source src="audio/kind.wav" />
+                    Siziň browseriňiz bu audiony okap bilmesýär &lt;audio&gt;.
+                  </audio>
+                </td>
+              </tr>
+              <tr>
+                <td>giç</td>
+                <td>late</td>
+                <td>[leɪt]</td>
+                <td><img class="tbimg" src="images/late.jpg" /></td>
+                <td>
+                  <audio
+                    style="width: 100px"
+                    controls="controls"
+                    preload="auto"
+                  >
+                    <source src="audio/late.wav" />
+                    Siziň browseriňiz bu audiony okap bilmesýär &lt;audio&gt;.
+                  </audio>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="pagination">
+          <a href="lessons/lessons/alphabet.html">«</a>
+          <a href="lessons/lesson1.html">1</a>
+          <a href="lessons/lesson2.html">2</a>
+          <a href="lessons/lesson3.html">3</a>
+          <a href="lessons/lesson4.html">4</a>
+          <a href="lessons/lesson5.html">5</a>
+          <a href="lessons/lesson6.html">»</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <a
+        style="color: white; text-decoration: none"
+        href="https://www.instagram.com/ruzvel_tm/"
+        ><h5>Developed by Ruzvel Web</h5></a
+      >
+    </div>
+
+    <script src="js/sidenav.js"></script>
+  </body>
+</html>
